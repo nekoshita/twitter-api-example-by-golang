@@ -11,8 +11,8 @@ TwitterのAPIをたたくサンプル実装
 https://developer.twitter.com/en/docs/twitter-api/v1
 
 # Twitter APIの認証について
-- 全てのAPIをたたくには、[TwitterDeveloperPortal](https://developer.twitter.com/)で作成したAppの `Consmer Keys` による認証が必要
-- 特定のユーザーに対するアクション（フォローするなど）などのAPIを叩く場合は、`Consmer Keys` に加え、Twitter Userの`Access Token`が必要
+- 全てのAPIをたたくには、[TwitterDeveloperPortal](https://developer.twitter.com/)で作成したAppの `Consumer Keys` による認証が必要
+- 特定のユーザーに対するアクション（フォローするなど）などのAPIを叩く場合は、`Consumer Keys` に加え、Twitter Userの`Access Token`が必要
 - Twitter Userの`Access Token`の取得方法
   - [TwitterDeveloperPortal](https://developer.twitter.com/)のAppのオーナーであるTwitter Userの`Access Token`は[TwitterDeveloperPortal](https://developer.twitter.com/)上で`Access Token`の取得可能
   - それ以外のTwitter Userの`Access Token`を取得するには、[Twitter Sign-in](https://developer.twitter.com/en/docs/authentication/guides/log-in-with-twitter)による認証をする必要がある
